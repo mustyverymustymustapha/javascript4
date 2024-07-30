@@ -65,3 +65,44 @@ let rats = ['Cuddly', 'Scary', 'Disease Superspreaders']
 rats[2] = 'Awesome'
 // re-assigned
 
+
+
+
+// -The .length Property- //
+// The .length property is one of the properties of an array that when called returns the value of the amount of elements in the array. Here is a demonstration:
+const myProjects = ["Random Generator", "Cat Photo Generator", "Discord Bot"]
+console.log(myProjects.length)
+// logs 3
+
+
+
+// -The .push Method- //
+// The .push Method is a method we can add to an array to add an element to the end of an array. Here is an example:
+const myArray = ['a', 'b', 'c', 'd']
+myArray.push('e')
+
+
+// The .pop Method- //
+// The .pop Method is a method we can use in an array to remove the last element of the array. (It removes the last array element). Here is an example:
+const numbers = 
+  ['1',
+   '2',
+   '3']
+numbers.pop()
+console.log(numbers)
+// logs only 1 and 2
+
+
+// -More Array Methods- //
+// There are wayyy more array methods that can be used other than the main useful ones like .pop and .push. Here is a list of a few:
+// .unshift
+// .join
+// .slice
+// .splice
+// .shift
+// .concat
+
+// Here is an example:
+const greetings = ["Hello", "Aloha", "Bonjour", "Hola", "Salam", "Ciao", "Konichiwa"]
+greetings.shift();
+// removes the first element, hello
